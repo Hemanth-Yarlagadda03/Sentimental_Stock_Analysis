@@ -12,8 +12,8 @@ nltk.download('vader_lexicon')
 html_tables = {}
 
 # Define the datasets directory
-datasets_dir = 'C:/Users/kowshik/Study/Projects/Stock-Prediction-System-Application/sentiment/datasets'
-output_dir = 'C:/Users/kowshik/Study/Projects/Stock-Prediction-System-Application/sentiment/visualizations'
+datasets_dir = 'C:/Users/kowshik/Study/Projects/sentiment/datasets'
+output_dir = 'C:/Users/kowshik/Study/Projects/sentiment/visualizations'
 
 # Check if the output directory exists, if not, create it
 if not os.path.exists(output_dir):
